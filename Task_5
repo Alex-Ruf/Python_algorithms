@@ -1,4 +1,5 @@
 # https://drive.google.com/file/d/1gGQt3KzX8AGONdrojLv2xoeb4e5VwO3S/view?usp=sharing
+
 first = ord(input("Введите  букву алфавита "))
 second = ord(input("Введите другую букву алфавита"))
 first = first - ord('a') + 1
