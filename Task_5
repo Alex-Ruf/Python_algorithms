@@ -1,0 +1,18 @@
+MIN = 32
+MAX = 127
+COUNT = 10
+
+
+def gen(i):
+    l = list()
+    for a in range(i, i + COUNT):
+        if a <= MAX:
+            l.append(chr(a))
+        else:
+            break;
+    return tuple(l)
+
+
+for i in range(MIN, MAX, COUNT):
+    c = gen(i)
+    print(" ".join(c))
