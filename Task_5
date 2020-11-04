@@ -1,13 +1,14 @@
+# https://drive.google.com/file/d/1gRvpEIPaeyyR3nIIeM3MlD0tkRV8PcH2/view?usp=sharing
+
 MIN = 32
 MAX = 127
 COUNT = 10
-
 
 def gen(i):
     l = list()
     for a in range(i, i + COUNT):
         if a <= MAX:
-            l.append(chr(a))
+            l.append(str(a)+"-"+chr(a))
         else:
             break;
     return tuple(l)
