@@ -1,0 +1,16 @@
+# https://drive.google.com/file/d/1gGQt3KzX8AGONdrojLv2xoeb4e5VwO3S/view?usp=sharing
+
+a = float(input("Введите 1-ю сторону треугольника- любое число, больше 0 : "))
+b = float(input("Введите 2-ю сторону треугольника- любое число, больше 0 : "))
+c = float(input("Введите 3-ю сторону треугольника- любое число, больше 0 : "))
+
+if a + b > c and b + c > a and a + c > b:
+    if a == b == c:
+        print("Треугольник равносторонний")
+
+    elif a == b or b == c or a == c:
+        print("Треугольник равнобедренный")
+    else:
+        print("Треугольник разносторонний")
+else:
+    print("Треугольник не существует")
