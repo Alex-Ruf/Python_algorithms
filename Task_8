@@ -1,0 +1,9 @@
+# https://drive.google.com/file/d/1gRvpEIPaeyyR3nIIeM3MlD0tkRV8PcH2/view?usp=sharing
+
+numbers = input("Введите любые натуральные числа : ")
+numeral = input("Введите любую цифру для поиска: ")
+count = 0
+for i in map(str, numbers):
+    if i == numeral:
+        count += 1
+print(f'Колличество совпадений цифры {numeral} -  {count} раз(а)')
