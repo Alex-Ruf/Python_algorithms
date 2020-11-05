@@ -7,7 +7,6 @@ c = float(input("Введите 3-ю сторону треугольника- л
 if a + b > c and b + c > a and a + c > b:
     if a == b == c:
         print("Треугольник равносторонний")
-
     elif a == b or b == c or a == c:
         print("Треугольник равнобедренный")
     else:
