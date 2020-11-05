@@ -1,0 +1,12 @@
+# https://drive.google.com/file/d/1gGQt3KzX8AGONdrojLv2xoeb4e5VwO3S/view?usp=sharing
+
+a = int(input("Введите 1-е целое число: "))
+b = int(input("Введите 2-е целое число: "))
+c = int(input("Введите 3-е целое число: "))
+
+if c > a > b or c < a < b:
+    print(f'Среднее число - {a}')
+elif c > b > a or c < b < a:
+    print(f'Среднее число - {b}')
+else:
+    print(f'Среднее число - {c}')

@@ -1,0 +1,10 @@
+# https://drive.google.com/file/d/1gGQt3KzX8AGONdrojLv2xoeb4e5VwO3S/view?usp=sharing
+
+m = int(input("Введите 3-х значное число: "))
+a = m // 100
+b = m % 100 // 10
+c = m % 10
+summary = a + b + c
+multi = a * b * c
+print(f'Сумма = {summary}')
+print(f'Произведение = {multi}')
